@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lettering Life</title>
+  <link rel="shortcut icon" href="../assets/images/mngrm-black.png">
+  <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+  <link href="../css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <main>
+    <!--NAV BAR-->
+    <nav id="desktop-nav" class="header bkg-aqua2 text-ivory ">
+      <!--DESKTOP MENU-->
+      <div class="container ">
+        <div class="nav-wrapper ">
+          <a href="#" class="brand-logo nav-logo"><img src="../assets/images/llifeivory.png" alt="logo-ivory"></a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class=" fa fa-bars fa-2x text-ivory"></i></a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a id="home-btn" href="home.html" class="tooltiped" data-position="bottom" data-delay="50" data-tooltip="Home">
+                <i class="fa fa-home text-ivory"></i>
+              </a>
+            </li>
+            <li>
+              <a id="profile-btn" href="profile.html" class="tooltiped" data-position="bottom" data-delay="50" data-tooltip="Profile">
+                <i class="fa fa-user"></i>
+              </a>
+            </li>
+            <li>
+              <a id="friends-btn" href="friends.html" class="tooltiped" data-position="bottom" data-delay="50" data-tooltip="Friends">
+                <i class="fa fa-users"></i>
+              </a>
+            </li>
+            <li>
+              <a id="gallery-btn" href="gallery.html" class="tooltiped" data-position="bottom" data-delay="50" data-tooltip="Gallery">
+                <i class="fa fa-photo"></i>
+              </a>
+            </li>
+            <li>
+              <a id="notifications-btn" href="notifications.html"class=" tooltiped" data-position="bottom" data-delay="50" data-tooltip="Notifications">
+                <i class="fa fa-bell"></i>
+              </a></li>
+              <li>
+                <a id="events-btn" href="events.html" class="tooltiped" data-position="bottom" data-delay="50" data-tooltip="Events">
+                  <i class="fa fa-calendar"></i>
+                </a>
+              </li>
+              <li>
+                <a id="settings-btn" href="settings.html" class="tooltiped" data-position="bottom" data-delay="50" data-tooltip="Settings">
+                  <i class="fa fa-gear"></i>
+                </a>
+              </li>
+              <li>
+                <a id="logout-btn" href="logout.html" class="btn btn-flat text-ivory" id="logout-nav">Logout</a></li>
+              </ul>
+              <!--/DESKTOP MENU-->
+              <!--MOBILE MENU-->
+              <ul class="side-nav col s6 m3 bkg-aqua2" id="mobile-demo">
+                <li><a id="home-btn" href="home.html">Home<i class="fa fa-home"></i></a></li>
+                <li><a id="profile-btn" href="profile.html">Profile<i class="fa fa-user"></i></a></li>
+                <li><a id="friends-btn" href="friends.html">Friends<i class="fa fa-users"></i></a></li>
+                <li><a id="gallery-btn" href="gallery.html">Gallery<i class="fa fa-photo"></i></a></li>
+                <li><a id="notifications-btn" href="notifications.html">Notifications<i class="fa fa-bell"></i></a></li>
+                <li><a id="events-btn" href="events.html">Events<i class="fa fa-calendar"></i></a></li>
+                <li><a id="settings-btn" href="settings.html" >Settings<i class="fa fa-gear"></i></a></li>
+                <div class="row center">
+                  <a id="logout-btn" href="logout.html" class="btn" id="logout-nav2">Logout</a>
+                </div>
+              </ul>
+
+              <!--/MOBILE MENU-->
+            </div>
+          </div>
+        </nav>
+        <!--/NAV BAR-->
+        <!--NOTIFICATIONS-->
+
+      </div>
+      <div id="preferences"class="card-panel mt-20">
+        <label>Notifications
+          <div class="row">
+            <div class=" col s10 offset-s1">
+          <select id="notifications-menu">
+            <option value="">What's new</option>
+            <option id="opt-likes" class="noti-opt" value="0">Likes</option>
+            <option id="opt-comments" class="noti-opt" value="1">Comments</option>
+            <option id="opt-d-messages" class="noti-opt" value="2">Direct Messages</option>
+            <option id="opt-new-friend" class="noti-opt" value="3">New Friends</option>
+          </select>
+          <div id="likes-notifications" class="card-content">
+            likes
+          </div>
+          <div id="comments-notifications" class="card-content">
+            comments
+          </div>
+          <div id="dm-notifications" class="card-content">
+            direct messages
+          </div>
+          <div id="newfriends-notifications" class="card-content">
+            new friends
+          </div>
+        </label>
+      </div>
+    </div>
+      </main>
+      <!--/NOTIFICATIONS-->
+      <!--FOOTER-->
+      <footer class="site-footer">
+        <div class="container">
+          <!-- languages-->
+          <div class="row">
+            <div class="col s12 l3 center-align">
+              <a id="language-btn" class="dropdown-button btn btn-flat bolder mb-40" href="#" data-activates="language">Language</a>
+              <ul id="language" class="dropdown-content">
+                <li><a href="#!">English</a></li>
+                <li><a href="#!">Spanish</a></li>
+              </ul>
+            </div>
+            <!-- /languages-->
+            <!--copyright-->
+            <div class="row center">
+              <div class="col s12 center mt-40 ">
+                <a href="www.laboratoria.la" class="text-aqua2">&copy;Laboratoria 2018</a>
+              </div>
+            </div>
+            <!--/copyright-->
+          </div>
+        </div>
+      </footer>
+      <!--/FOOTER-->
+
+
+      <!--SCRIPTS-->
+      <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+      <script src="../js/jquery.js"></script>
+      <script src="../js/bootstrap.min.js"></script>
+      <script src="../js/app.js"></script>
+    </body>
+    </html>
