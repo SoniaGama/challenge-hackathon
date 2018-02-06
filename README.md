@@ -1,19 +1,22 @@
-# TITULO
+# SOUNDFILM
 * **Track:** _Common Core_
 * **Sprint 03:** _Hackaton_
 * **Unidad:** _04_
 
 ## Objetivo
--------
+Crear una aplicación que le brinde usuario la oportunidad de formar colecciones sobre películas añadiendo sus poster y soundtrack list.
 
 ## Requisitos.
 
-* ----
-* ----
-* ----
-* ----
-* ----
-* ----
+* Mobile Friendly
+* Pantalla de inicio de sesión
+* Pantalla de registro
+* Perfil de usuario
+* Menu general
+* Catalogo de películas
+* Opción para agregar a lista personal
+* Ficha con poster, info y modal con soundtrack list
+* Pantalla de salida
 
 
 ## Flujo de trabajo
