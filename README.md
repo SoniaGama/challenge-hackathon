@@ -4,7 +4,7 @@
 * **Unidad:** _04_
 
 ## Objetivo
-Crear una aplicación que le brinde usuario la oportunidad de formar colecciones sobre películas añadiendo sus poster y soundtrack list.
+Crear una aplicación que le brinde usuario la oportunidad de formar colecciones sobre películas mostrando sus posters y soundtrack list.
 
 ## Requisitos.
 
@@ -21,49 +21,45 @@ Crear una aplicación que le brinde usuario la oportunidad de formar colecciones
 
 ## Flujo de trabajo
 
-1. Definir tema y objetivo.
+1. Definir tema y objetivo (brainstorm).
 
 2. Establecer rutas de trabajo y medios de comunicación en el equipo.
 
-3. Investigación sobre los usuarios, medio e industria.
+3. Investigación de herramientas a utilizar para el desarrollo de la idea.
 
-4. Análisis de la información.
+4. Detección de desafios a resolver(funcionalidad) y selección de herramientas.
 
-5. Detección de desafios a resolver(funcionalidad) y selección de herramientas.
+5. Sketch del diseño.
 
-6. Sketch del diseño.
+6. Establecer estructura de carpetas con los archivos necesarios para el proyecto.
 
-7. Establecer estructura de carpetas con los archivos necesarios para el proyecto.
-
-8. Escribir pseudo código para identificar funcionalidad requerida (backlog) estableciendo funcionalidades: 
-				* Indispensables (prioridad 1) 
-				* Medias 		 (prioridad 2) 
-				* Prescindibles  (prioridad 3) 
+7. Escribir pseudo código para identificar funcionalidad requerida (backlog) estableciendo funcionalidades:
+				* Indispensables (prioridad 1)
+				* Medias 		 (prioridad 2)
+				* Prescindibles  (prioridad 3)
 				* Extras 		 (prioridad 4)
 
-9. Realizar el marcado del contenido en un archivo html.
+8. Realizar el marcado del contenido en un archivo html.
 
-10. Desarrollar funcionalidad.
+9. Desarrollar funcionalidad.
 
-11. Prototipo.
+10. Prototipo.
 
-12. Establecer estilos en archivo css.
+11. Establecer estilos en archivo css.
 
-13. Aplicar los principios de diseño responsive (media queries) para conseguir el objetivo del ejercicio.
+12. Aplicar los principios de diseño responsive (media queries) para conseguir el objetivo del ejercicio.
 
-14. Realizar primera prueba.
+13. Realizar primera prueba a través de la validación de los usuarios.
 
-15. Realizar mejoras y modificaciones en relación a los resultados de la prueba.
+14. Realizar mejoras y modificaciones en relación a los resultados de la prueba.
 
-16. Realizar segunda prueba.
+15. Realizar segunda prueba con usuarios.
 
-17. Ajustes finales.
+16. Ajustes finales.
 
-18. Crear archivo README.
+17. Subir a repositorio Git y crear GHpage correspondiente.
 
-19. Subir a repositorio Git y crear GHpage correspondiente.
-
-20. Condensar información y realizar presentación.
+18. Condensar información y realizar presentación.
 
 ## Consideraciones
 
@@ -77,10 +73,8 @@ Crear una aplicación que le brinde usuario la oportunidad de formar colecciones
         Frontend: Backlog.   
                   Pseudocódigo.
 
+
 ## Sketches
-* Titulo
-
-![nombre](ruta)
 
 * Titulo
 
@@ -102,33 +96,55 @@ Crear una aplicación que le brinde usuario la oportunidad de formar colecciones
 
 ![nombre](ruta)
 
+* Titulo
 
+![nombre](ruta)
 
 ## Wireframes
 
-* Titulo
+* Inicio / Vista Splash
 
-![nombre](ruta)
+![Inicio](docs/images/scketch-1.png)
 
-* Titulo
+* Iniciar Sesión / Regístrate
 
-![nombre](ruta)
+![signUp](docs/images/scketch-2.png)
 
-* Titulo
+* Acceder con mail
 
-![nombre](ruta)
+![login](docs/images/scketch-4.png)
 
-* Titulo
+* Regístrate con tu mail o fb
 
-![nombre](ruta)
+![signUp](docs/images/scketch-3.png)
 
-* Titulo
+* Accedes a menú de géneros cinematográficos
 
-![nombre](ruta)
+![genero](docs/images/scketch-5.png)
 
-* Titulo
+* Lista de películas por género escogido
 
-![nombre](ruta)
+![nombre](docs/images/scketch-6.png)
+
+* Póster de película
+
+![nombre](docs/images/scketch-7.png)
+
+* Soudtrack de película
+
+![nombre](docs/images/scketch-8.png)
+
+* Acceder a tu perfil
+
+![nombre](docs/images/scketch-10.png)
+
+* Tú perfil
+
+![nombre](docs/images/scketch-11.png)
+
+* Lista creadas por el usuario
+
+![nombre](docs/images/scketch-9.png)
 
 ## Style Guide
 
