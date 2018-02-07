@@ -35,6 +35,3 @@ Director
 --Listas personales
 --Modal Lista (Miniposter, titulo de lista, boton de borrar botón de ir a> pantalla 4)
 
---Requerimiento
---Requerimiento
---Requerimiento
