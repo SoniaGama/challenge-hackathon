@@ -104,11 +104,11 @@ Crear una aplicación que le brinde usuario la oportunidad de formar colecciones
 
 * Inicio / Vista Splash
 
-![Inicio](docs/images/scketch-1.png)
+![Inicio](docs/images/scketch-1.PNG)
 
 * Iniciar Sesión / Regístrate
 
-![signUp](docs/images/scketch-2.png)
+![signUp](docs/images/scketch-2.PNG)
 
 * Acceder con mail
 
