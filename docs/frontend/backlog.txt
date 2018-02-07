@@ -3,18 +3,19 @@
 -Pantalla #1 INICIO
 --Pantalla Splash con el logo
 --Pantalla Main
+--Carrousel de posters
 --Botón de inicio de sesión (MODAL)
 --Botón de registro (MODAL)
---Opcion recuperar contraseña
+--Opcion recuperar contraseña (MODAL)
 
 -Pantalla #2
---Carrousel de citas
+--Carrousel de citas (texto)
 --Galeria de películas por género
 --Scroll normal
 --Al hacer click sobre el género abre la pantalla 3
 
 -Pantalla #3
---Galeria de películas del genero seleccionado
+--Galeria de películas del genero seleccionado (Scrollograma)
 --Scrollrama
 --Al seleccionar la pelicula pasa a la pantalla 4
 
