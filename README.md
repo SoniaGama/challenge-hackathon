@@ -102,6 +102,8 @@ Crear una aplicación que le brinde usuario la oportunidad de formar colecciones
 
 ## Wireframes
 
+[https://share.proto.io/N4HPL2/]
+
 * Inicio / Vista Splash
 
 ![Inicio](docs/images/scketch-1.PNG)
@@ -112,39 +114,39 @@ Crear una aplicación que le brinde usuario la oportunidad de formar colecciones
 
 * Acceder con mail
 
-![login](docs/images/scketch-4.png)
+![login](docs/images/scketch-4.PNG)
 
 * Regístrate con tu mail o fb
 
-![signUp](docs/images/scketch-3.png)
+![signUp](docs/images/scketch-3.PNG)
 
 * Accedes a menú de géneros cinematográficos
 
-![genero](docs/images/scketch-5.png)
+![genero](docs/images/scketch-5.PNG)
 
 * Lista de películas por género escogido
 
-![nombre](docs/images/scketch-6.png)
+![nombre](docs/images/scketch-6.PNG)
 
 * Póster de película
 
-![nombre](docs/images/scketch-7.png)
+![nombre](docs/images/scketch-7.PNG)
 
 * Soudtrack de película
 
-![nombre](docs/images/scketch-8.png)
+![nombre](docs/images/scketch-8.PNG)
 
 * Acceder a tu perfil
 
-![nombre](docs/images/scketch-10.png)
+![nombre](docs/images/scketch-10.PNG)
 
 * Tú perfil
 
-![nombre](docs/images/scketch-11.png)
+![nombre](docs/images/scketch-11.PNG)
 
 * Lista creadas por el usuario
 
-![nombre](docs/images/scketch-9.png)
+![nombre](docs/images/scketch-9.PNG)
 
 ## Style Guide
 
