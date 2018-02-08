@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
+  <title>SoundFilm</title>
   <link rel="shortcut icon" href="assets/images/...">
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -11,98 +11,17 @@
   <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <section id="splash">
-    <img src="" alt="">  
-  </section>
-
-  <main> 
-    <section>
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#log-in">
-         Log in
-      </button>
-      
-      <!-- Modal -->
-      <div class="modal fade" id="log-in" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              ...
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
-        </div>
-      </div>
+    <section id="splash" class="bkg-blue pt-10">
+      <img class="offset-4 mt- img-responsive" src="assets/images/soundfilm.jpg" alt="SoundFilm">
     </section>
 
-      <section>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#create-account">
-           Create Account
-        </button>
-      
-        <!-- Modal -->
-        <div class="modal fade" id="create-account" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                ...
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-              </div>
-            </div>
-          </div>
-        </div>
 
-      </section>
 
-      <section>
-
-        <a href="" data-toggle="modal" data-target="#recover-password">Recover password</a>
-
-        <div class="modal fade" id="recover-password" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                ...
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </section>    
-    
-  </main>
   <!--SCRIPTS-->
   <script src="js/jquery.js"></script>
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
-  <script src="js/app.js"></script>
+  <script src="js/splash.js"></script>
 </body>
 </html>

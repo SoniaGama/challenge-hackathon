@@ -28,10 +28,7 @@ var $trackDuration = $('#track-duration');
 //lists//
 var $addListBtn = $("#add-list-btn");
 var $removeListBtn = $("#remove-list-btn");
-//DOCUMENT//
-$(document).ready(function(e){
 
-}
 //SPLASH//
 
 //LOGIN WITH EMAIL AND PASSWORD//

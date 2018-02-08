@@ -32,7 +32,7 @@
 
 html,
 body {
-    background-color: #******;
+    background-color: ;
     height: 100vh;
     margin: 0;
     padding: 0;
@@ -129,11 +129,15 @@ label {
 }
 
 .pt-10 {
-    padding-top: 10px;
+    padding-bottom: 500px;
 }
 
-.bkg-**** {
-    background-color: #******;
+.mt- {
+    margin-top: 200px;
+}
+
+.bkg-blue {
+    background-color: #1b181f;
 }
 
 .bkg-**** {
@@ -167,7 +171,11 @@ label {
 /*MEDIA QUERIES*/
 
 
-/*@media only screen and (min-width:480px)*/
+@media only screen and (min-width: 480px){
+  img{
+    margin-left: 33.333333%;
+  }
+}
 
 
 /*@media only screen and (min-width:601px)*/
