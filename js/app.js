@@ -28,6 +28,16 @@ var $trackDuration = $('#track-duration');
 //lists//
 var $addListBtn = $("#add-list-btn");
 var $removeListBtn = $("#remove-list-btn");
+
+//api enpoints
+const request = superagent; // 
+// axios
+const api_endpoint_genres = 'https://api.themoviedb.org/3/genre/movie/list?api_key=308ef47d4177eecfbb266f41f2617b5f&language=en-US';
+const api_endpoint_movies = 'https://api.themoviedb.org/3/discover/movie?api_key=308ef47d4177eecfbb266f41f2617b5f&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=';
+const api_endpoint_movie = 'https://api.themoviedb.org/3/movie/';
+
+const api_endpoint_key = '?api_key=308ef47d4177eecfbb266f41f2617b5f&language=en-US';
+const api_endpoint_posters = 'http://image.tmdb.org/t/p/w200//';
 //DOCUMENT//
 // $(document).ready(function(e){
 
@@ -48,131 +58,66 @@ function signup(){
 //REGISTER NEW USER END//
 
 //HOME CARROUSEL//
-function homeCarrousel(){
-	
+function homeCarrousel(){	
 	// brenda
-  	Objetivo Carrousel de inicio
-  	Nombre Carrousel 1
-  	Paso # 1 Crear carrousel
-  	Paso # 2 Agregar imagenes del API IMDB
-  	Paso # 3 Controles de carrousel
-  	Resultado Muestra los posters de las peliculas recientes.
+  	// Objetivo Carrousel de inicio
+  	// Nombre Carrousel 1
+  	// Paso # 1 Crear carrousel
+  	// Paso # 2 Agregar imagenes del API IMDB
+  	// Paso # 3 Controles de carrousel
+  	// Resultado Muestra los posters de las peliculas recientes.
 
 }
 //HOME CARROUSEL END//
 
-//GENRES//
-function genresCatalog(){
-    // Sonia
-  	Objetivo Catálogo de g�neros
-  	Nombre Generos
-    Paso # 1 Mostrar el catálogo
-  	Paso # 2 Activa la pagina del genero
-  	Resultado Cambio de p�gina a la del g�nero seleccionado
 
-}
-//SCROLLRAMA GENRES END//
-
-//POSTER GALLERY CARROUSEL//
-function showMoviesFromGenreSelected(){
-  Funci�n #6
-  	Objetivo Mostrar las peliculas del g�nero seleccionado
-  	Paso #1 Mostrar el poster de las pel�culas del genero
-  	Paso #2 Al seleccionarla abre la pagina de la pelicula
-  	Resultado # Cambio de vista
-}
-//POSTER GALLERY CARROUSEL END//
-
-//MOVIE INFO CARD//
-function showMovieInfoCard(){
-  Funci�n #7
-  	Objetivo Mostrar la informacion general de la pel�cula
-  	Nombre Ficha de pelicula
-  	Paso #1 Mostrar Poster
-  	Paso #2 Mostrar T�tulo
-  	Paso #3 Mostrar A�o
-  	Paso #4 Mostrar Director
-  	Paso #5 Modal Soundtrack List
-  	Paso #6 Bot�n para agregar a lista personal
-  	Paso #6B Agregar ficha a lista personal
-  	Paso #7 Activar modal soundtrack list
-  	Resultado
-}
-//MOVIE INFO CARD END//
 
 //SOUNDTRACK LIST//
 function showSoundTrackList(){
 	// Elz
-  Funci�n #8
-  	Objetivo Mostrar Soundtrack List
-  	Nombre Modal Soundtrack
-  	Paso # 1 Crear lista ordenada
-  	Paso # 2 Mostrar n�mero del track
-  	Paso # 3 Mostrar t�tulo del track
-  	Paso # 4 Mostrar duraci�n del track
-  	Resultado Soundtrack list
+//   Funci�n #8
+//   	Objetivo Mostrar Soundtrack List
+//   	Nombre Modal Soundtrack
+//   	Paso # 1 Crear lista ordenada
+//   	Paso # 2 Mostrar n�mero del track
+//   	Paso # 3 Mostrar t�tulo del track
+//   	Paso # 4 Mostrar duraci�n del track
+//   	Resultado Soundtrack list
 }
 //SOUNDTRACK LIST END//
 
 //USER PROFILE//
 function showUserProfileInfo(){
-  Funci�n #9 Perfil de usuario
-  	Objetivo Mostrar los datos de identificaci�n del usuario
-  	Nombre Usuario
-  	Paso # 1 Mostrar imagen/avatar del usuario
-  	Paso # 2 Mostrar nombre de usuario
-  	Paso # 3 Mostar Listas personales
+//   Funci�n #9 Perfil de usuario
+//   	Objetivo Mostrar los datos de identificaci�n del usuario
+//   	Nombre Usuario
+//   	Paso # 1 Mostrar imagen/avatar del usuario
+//   	Paso # 2 Mostrar nombre de usuario
+//   	Paso # 3 Mostar Listas personales
 }
 //USER PROFILE END//
 
 //USER LISTS//
 function showUserLists(){
-  	Paso # 4 Modal lista
-  	Paso # 4A Muestra miniposter
-  	Paso # 4B Muestra t�tulo de la lista
-  	Paso # 4C Bot�n eliminar lista
-  	Paso # 4D Bot�n ir a (pantalla informacion de la pel�cula).
-  	Resultado
+  	// Paso # 4 Modal lista
+  	// Paso # 4A Muestra miniposter
+  	// Paso # 4B Muestra t�tulo de la lista
+  	// Paso # 4C Bot�n eliminar lista
+  	// Paso # 4D Bot�n ir a (pantalla informacion de la pel�cula).
+  	// Resultado
 }
 //USER LISTS END//
 
 //LOGOUT//
 function logout(){
-  Funci�n #10
-  	Objetivo Cerrar Sesi�n
-  	Nombre Logout
-  	Paso # 1 Evento bot�n cerrar sesi�n
-  	Paso # 2 Cambio a pantalla de inicio
-  	Resultado Cierre de sesi�n.
+//   Funci�n #10
+//   	Objetivo Cerrar Sesi�n
+//   	Nombre Logout
+//   	Paso # 1 Evento bot�n cerrar sesi�n
+//   	Paso # 2 Cambio a pantalla de inicio
+//   	Resultado Cierre de sesi�n.
 }
 //LOGOUT END//
-
-//MOVIE QUOTES//
-function movieQuotes(){
-
-
-}
-//MOVIE QUOTES END//
-
-//FAVORITES//
-function favorites(){
-
-
-}
-
-
-
-
-const request = superagent;
-// axios
-const api_endpoint_genres = 'https://api.themoviedb.org/3/genre/movie/list?api_key=308ef47d4177eecfbb266f41f2617b5f&language=en-US';
-const api_endpoint_movies = 'https://api.themoviedb.org/3/discover/movie?api_key=308ef47d4177eecfbb266f41f2617b5f&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=';
-const api_endpoint_movie = 'https://api.themoviedb.org/3/movie/';
-
-const api_endpoint_key = '?api_key=308ef47d4177eecfbb266f41f2617b5f&language=en-US';
-const api_endpoint_posters = 'http://image.tmdb.org/t/p/w200//';
-
-
 
 function loadPage() {
 	$('#inicio').click(paintButtons);	
