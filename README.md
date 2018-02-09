@@ -106,47 +106,39 @@ Crear una aplicación que le brinde usuario la oportunidad de formar colecciones
 
 * Inicio / Vista Splash
 
-![Inicio](docs/images/scketch-1.PNG)
+![Inicio](docs/ux/wireframes/splash.PNG)
 
 * Iniciar Sesión / Regístrate
 
-![signUp](docs/images/scketch-2.PNG)
+![signUp](docs/ux/wireframes/home.PNG)
 
 * Acceder con mail
 
-![login](docs/images/scketch-4.PNG)
+![login](docs/ux/wireframes/login.PNG)
 
 * Regístrate con tu mail o fb
 
-![signUp](docs/images/scketch-3.PNG)
+![signUp](docs/ux/wireframes/sign.PNG)
 
 * Accedes a menú de géneros cinematográficos
 
-![genero](docs/images/scketch-5.PNG)
+![genero](docs/ux/wireframes/categories.PNG)
 
 * Lista de películas por género escogido
 
-![nombre](docs/images/scketch-6.PNG)
+![nombre](docs/ux/wireframes/collection-poster.PNG)
 
 * Póster de película
 
-![nombre](docs/images/scketch-7.PNG)
+![nombre](docs/ux/wireframes/poster.PNG)
 
 * Soudtrack de película
 
-![nombre](docs/images/scketch-8.PNG)
-
-* Acceder a tu perfil
-
-![nombre](docs/images/scketch-10.PNG)
-
-* Tú perfil
-
-![nombre](docs/images/scketch-11.PNG)
+![nombre](docs/ux/wireframes/list-soudtrack.PNG)
 
 * Lista creadas por el usuario
 
-![nombre](docs/images/scketch-9.PNG)
+![nombre](docs/ux/wireframes/playlist.PNG)
 
 ## Style Guide
 
