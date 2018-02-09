@@ -29,7 +29,7 @@ var $trackDuration = $('#track-duration');
 var $addListBtn = $("#add-list-btn");
 var $removeListBtn = $("#remove-list-btn");
 
-//api enpoints
+//api TMD enpoints
 const request = superagent; // 
 // axios
 const api_endpoint_genres = 'https://api.themoviedb.org/3/genre/movie/list?api_key=308ef47d4177eecfbb266f41f2617b5f&language=en-US';
@@ -38,10 +38,8 @@ const api_endpoint_movie = 'https://api.themoviedb.org/3/movie/';
 
 const api_endpoint_key = '?api_key=308ef47d4177eecfbb266f41f2617b5f&language=en-US';
 const api_endpoint_posters = 'http://image.tmdb.org/t/p/w200//';
-//DOCUMENT//
-// $(document).ready(function(e){
 
-// }
+
 //SPLASH//
 
 //LOGIN WITH EMAIL AND PASSWORD//
@@ -216,7 +214,8 @@ function paintInfoMovie(event) {
 		console.log(movieTagline); //tagline
 		console.log(movieDate);    //fecha de lanzamiento
 		console.log(moviePage);    //página 
-		// soundtrack   
+								   // soundtrack 
+								     
 
 		//   crear elementos
 		// agregar contenido
