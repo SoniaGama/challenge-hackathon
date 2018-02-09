@@ -1,0 +1,56 @@
+/*PALLETE
+#1b181f dark blue
+#536690 Light blue
+#770b1a Red
+#ffa500 yellow
+*/
+
+body {
+  background-color: #1B181F;
+}
+
+/* ---- nav ---- */
+nav {
+  background-color: #1B181F;
+  height: 100px;
+}
+
+nav > img {
+  padding: 10px;
+}
+
+.fa {
+  color: #FFFFFF;
+  font-size: 45px;
+  padding: 10px;
+}
+
+/* ---- main ---- */
+h1,h2,h4,h5 {
+  color: #FFA500;
+  text-decoration: none;
+}
+
+h2 {
+  margin-top: 100px;
+}
+
+/* ---- footer ---- */
+h6 {
+  color: #770B1A;
+}
+
+P {
+  color: #FFFFFF;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.credits {
+  margin-bottom: 100px;
+  margin-top: 150px;
+}
+
+.title {
+  margin-top: 100px;
+}

@@ -19,6 +19,7 @@
 #1b181f dark blue
 #536690 Light blue
 #770b1a Red
+#ffa500 yellow
 */
 
 
@@ -163,6 +164,216 @@ label {
 .fake-hr {
     border-bottom: 2px solid rgba(224, 224, 224, 1);
 }
+
+
+/* BUTTONS */
+
+.btn-theme-1 {
+    background-color: ******;
+    border: ******;
+    color: ******;
+}
+
+.btn-theme-1:hover,
+.btn-theme-1:focus {
+    background-color: ******;
+    border: ******;
+    color: ******;
+    font-weight: ******;
+}
+
+.btn-theme-2 {
+    background-color: ******;
+    border: ******;
+    color: ******;
+}
+
+.btn-theme-2:hover,
+.btn-theme-2:focus {
+    background-color: ******;
+    border: ******;
+    color: ******;
+    font-weight: ******;
+}
+
+.btn-theme-3 {
+    background-color: ******;
+    border: ******;
+    color: ******;
+}
+
+.btn-theme-3:hover,
+.btn-theme-3:focus {
+    background-color: ******;
+    border: ******;
+    color: ******;
+    font-weight: ******;
+}
+
+.file-field input {
+    outline: none;
+    border-top: none;
+}
+
+.material-tooltip {
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+.backdrop {
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+
+/* MODALS */
+
+.modal {
+    width: 80vw;
+    margin: auto;
+    padding: 5vh auto auto auto;
+    padding-bottom: 20px;
+}
+
+.modal-overlay {
+    background-color: #******;
+}
+
+.modal-close {
+    background-color: #******;
+    color: #******;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.modal-close:hover {
+    background-color: #******;
+    color: #******;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*INPUTS*/
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #******;
+    -webkit-box-shadow: 0 1px 0 0 #******;
+    box-shadow: 0 1px 0 0 #******;
+}
+
+input:not([type]):focus:not([readonly])+label,
+input[type=text]:not(.browser-default):focus:not([readonly])+label,
+input[type=password]:not(.browser-default):focus:not([readonly])+label,
+input[type=email]:not(.browser-default):focus:not([readonly])+label,
+input[type=url]:not(.browser-default):focus:not([readonly])+label,
+input[type=time]:not(.browser-default):focus:not([readonly])+label,
+input[type=date]:not(.browser-default):focus:not([readonly])+label,
+input[type=datetime]:not(.browser-default):focus:not([readonly])+label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label,
+input[type=tel]:not(.browser-default):focus:not([readonly])+label,
+input[type=number]:not(.browser-default):focus:not([readonly])+label,
+input[type=search]:not(.browser-default):focus:not([readonly])+label,
+textarea.materialize-textarea:focus:not([readonly])+label {
+    color: #******;
+}
+
+input[type=file] {
+    width: 250px;
+    background-color: #******;
+    padding: 5px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+.input-field label {
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+    text-align: initial;
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    pointer-events: none;
+}
+
+.input-field label:not(.label-icon).active {
+    -webkit-transform: translateY(-36px) scale(0.8);
+    transform: translateY(-36px) scale(0.8);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+[type="checkbox"]:checked {
+    color: #******;
+    border-right: 2px solid #******;
+    border-bottom: 2px solid #******;
+}
+
+[type="checkbox"]:checked+i {
+    color: #******;
+}
+
+.select-wrapper input.select-dropdown {
+    background-color: #******;
+    color: #******;
+    font-weight: bolder;
+    padding-left: 1rem;
+}
+
+.select-dropdown:active {
+    background-color: #******;
+    color: #******;
+    font-weight: bolder;
+    padding-left: 1rem;
+}
+
+#splash {
+    width: 40vw;
+    height: auto;
+    padding-top: 20vh;
+    margin-left: 20vw;
+}
+
+nav i {
+    font-size: 48px;
+}
+
+.nav-logo img {
+    height: 50px;
+    padding: 5px;
+}
+
+.side-nav li a {
+    color: #******;
+}
+
+.side-nav li>a>i,
+.side-nav li>a>[class^='mdi-'],
+.side-nav li>a li>a>[class*='mdi-'] {
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    margin: 0 32px 0 0;
+    width: 24px;
+    color: #******;
+}
+
+.side-nav li:hover {
+    background-color: #******;
+    color: #******;
+}
+
 
 /*MEDIA QUERIES*/
 
